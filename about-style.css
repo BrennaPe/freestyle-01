@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+:root{
+    --color1: rgb(115	119	137);
+    --color2: rgb(176, 181, 203);
+    --color3: rgb(221, 224, 233);
+    --color4: rgb(37,53, 79);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;}
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--color1), var(--color4));
+    height: 4.5em;
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    font-weight: 800;
+    font-size: 1.4em;
+    color: var(--color4);
+    text-decoration: none;
+    padding-left: 24px;
+}
+
+header a:hover{
+    color: var(--color3);
+}
+
+/*--------------------------main-----------------------*/
+
+.color-bg{
+    height: 25em;
+    background-color: var(--color4);
+    color: var(--color2);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.image-bg{
+    height: 25em;
+}
+
+#image-bg1{
+    background-image: url(https://dm1igrl0afsra.cloudfront.net/AcuCustom/Sitename/DAM/054/af8g2sTNQ2qjR1G8a3Xc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--color3);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.5em;
+
+    h1{
+        margin-bottom: .5em;
+        color: var(--color3);
+    }
+}
+
+#image-bg2{
+    background-image: url(https://images.unsplash.com/photo-1485541653056-e688bdf8319e?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--color3);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.5em;
+
+    h1{
+        margin-bottom: .5em;
+        color: var(--color3);
+    }
+}
+
+footer p{
+    background-color: var(--color4);
+    color: var(--color1);
+    text-align: center;
+    padding: 12px;
+}
